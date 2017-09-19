@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title><meta name="viewport"
+                         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link href="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css"/>
+</head>
+<body>
+<div data-role="page" data-theme="b">
+    <div data-role="header">
+        <h2>歌曲分类</h2>
+    </div>
+    <div>
+        <img src="img/1.jpg" width="100%"/>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true">
+            <li data-icon="none"><a href="" class="a"><h4>怀旧中国风</h4></a></li>
+            <li data-icon="none"><a href="" class="a"><h4>伤感中国风</h4></a></li>
+            <li data-icon="none"><a href="" class="a"><h4>欢快中国风</h4></a></li>
+            <li data-icon="none"><a href="" class="a"><h4>嘻哈中国风</h4></a></li>
+            <li data-icon="none"><a href="" class="a"><h4>甜蜜中国风</h4></a></li>
+        </ul>
+    </div>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script src="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.js"></script>
+<script>
+    $(function(){
+        $('.a').tap(function(){
+            $(location).attr('href','../歌手列表/index.html')
+        })
+    })
+</script>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <title></title><meta name="viewport"
+                         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link href="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.min.css" rel="stylesheet">
+</head>
+<body>
+<!--歌曲分类-->
+<div data-role="page" data-theme="b" id="song">
+    <div data-role="header">
+        <h2>歌曲分类</h2>
+        <a href="登录/index.html" data-ajax="false" class="ui-btn-right">登录</a>
+    </div>
+    <div>
+        <img src="歌曲分类/img/1.jpg" width="100%"/>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true">
+            <li data-icon="none"><a href="#singer-list" data-transition="slide" class="a"><h4>怀旧中国风</h4></a></li>
+            <li data-icon="none"><a href="#singer-list" data-transition="slidedown" class="a"><h4>伤感中国风</h4></a></li>
+            <li data-icon="none"><a href="#singer-list" data-transition="slideup" class="a"><h4>欢快中国风</h4></a></li>
+            <li data-icon="none"><a href="#singer-list" data-transition="fade" class="a"><h4>嘻哈中国风</h4></a></li>
+            <li data-icon="none"><a href="#singer-list" data-transition="pop" class="a"><h4>甜蜜中国风</h4></a></li>
+        </ul>
+    </div>
+</div>
+<!--歌手列表-->
+<div data-role="page" data-theme="b" id="singer-list">
+    <div data-role="header">
+        <a href="#song" class="back" data-transition="slide">返回</a>
+        <h3>歌手列表</h3>
+        <a href="登录/index.html" data-ajax="false" class="ui-btn-right">登录</a>
+    </div>
+    <ul data-role="listview">
+        <li data-icon="none"><a href="#wsl" data-transition="flip"><img src="歌手列表/img/wsl.jpg" width="100%"/><h4>汪苏泷</h4><p>汪苏泷，中国内地男歌手。</p></a></li>
+        <li data-icon="none"><a href="#wyt" data-transition="flip"><img src="歌手列表/img/wyt.jpg" width="100%"/><h4>五月天</h4><p>五月天，台湾摇滚乐团。</p></a></li>
+        <li data-icon="none"><a href="#zjl" data-transition="flip"><img src="歌手列表/img/zjl.jpg" width="100%"/><h4>周杰伦</h4><p>周杰伦，中国台湾男歌手。</p></a></li>
+        <li data-icon="none"><a href="#xzq" data-transition="flip"><img src="歌手列表/img/xzq.jpg" width="100%"/><h4>薛之谦</h4><p>薛之谦，华语流行乐男歌手。</p></a></li>
+        <li data-icon="none"><a href="#lrh" data-transition="flip"><img src="歌手列表/img/lrh.jpg" width="100%"/><h4>李荣浩</h4><p>李荣浩，中国流行乐男歌手。</p></a></li>
+        <li data-icon="none"><a href="#sdy" data-transition="flip"><img src="歌手列表/img/sdy.jpg" width="100%"/><h4>宋冬野</h4><p>宋冬野，中国民谣歌手。</p></a></li>
+    </ul>
+</div>
+<!--汪苏泷-->
+<div data-role="page" data-theme="b" id="wsl">
+    <div data-role="header">
+        <a href="#singer-list" class="back" data-ajax="false" data-transition="slide">返回</a>
+        <h3>汪苏泷-登陆计划</h3>
+        <a href="登录/index.html" data-ajax="false" class="ui-btn-right">登录</a>
+    </div>
+    <div class="img">
+        <img src="歌手专辑/img/wsl.jpg" width="100%"/>
+    </div>
+    <ul data-role="listview" >
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>奇怪</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>银河</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>爱怎么会错</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>苏璞</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>浪漫曲</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>得不到的温柔</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>不用紧张</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>茉莉</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>地动山摇</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>睡前故事</h3>
+        </a></li>
+    </ul>
+</div>
+<!--李荣浩-->
+<div data-role="page" data-theme="b" id="lrh">
+    <div data-role="header">
+        <a href="#singer-list" class="back" data-ajax="false">返回</a>
+        <h3>李荣浩-模特</h3>
+        <a href="登录/index.html" data-ajax="false" class="ui-btn-right">登录</a>
+    </div>
+    <div class="img">
+        <img src="歌手专辑/img/lrh.jpg" width="100%"/>
+    </div>
+    <ul data-role="listview" >
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>李白</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>模特</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>两个人</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>老伴</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>都一样</h3>
+        </a></li>
+    </ul>
+</div>
+<!--宋冬野-->
+<div data-role="page" data-theme="b" id="sdy">
+    <div data-role="header">
+        <a href="#singer-list" class="back" data-ajax="false">返回</a>
+        <h3>宋冬野-安和桥北</h3>
+        <a href="登录/index.html" data-ajax="false" class="ui-btn-right">登录</a>
+    </div>
+    <div class="img">
+        <img src="歌手专辑/img/sdy.jpg" width="100%"/>
+    </div>
+    <ul data-role="listview" >
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>董小姐</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>斑马，斑马</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>安和桥</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>连衣裙</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>关忆北</h3>
+        </a></li>
+    </ul>
+</div>
+<!--五月天-->
+<div data-role="page" data-theme="b" id="wyt">
+    <div data-role="header">
+        <a href="#singer-list" class="back" data-ajax="false">返回</a>
+        <h3>五月天-盛夏光年电影主题曲概念专辑</h3>
+        <a href="登录/index.html" data-ajax="false" class="ui-btn-right">登录</a>
+    </div>
+    <div class="img">
+        <img src="歌手专辑/img/wyt.jpg" width="100%"/>
+    </div>
+    <ul data-role="listview" >
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>Intro Back To</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>盛夏光年</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>拥抱</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>明白</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>纯真</h3>
+        </a></li>
+    </ul>
+</div>
+<!--薛之谦-->
+<div data-role="page" data-theme="b" id="xzq">
+    <div data-role="header">
+        <a href="#singer-list" class="back" data-ajax="false">返回</a>
+        <h3>薛之谦-初学者</h3>
+        <a href="登录/index.html" data-ajax="false" class="ui-btn-right">登录</a>
+    </div>
+    <div class="img">
+        <img src="歌手专辑/img/xzq.jpg" width="100%"/>
+    </div>
+    <ul data-role="listview" >
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>初学者</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>刚刚好</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>演员</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>一半</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>花儿和少年</h3>
+        </a></li>
+    </ul>
+</div>
+<!--周杰伦-->
+<div data-role="page" data-theme="b" id="zjl">
+    <div data-role="header">
+        <a href="#singer-list" class="back" data-ajax="false">返回</a>
+        <h3>周杰伦-魔杰座</h3>
+        <a href="登录/index.html" data-ajax="false" class="ui-btn-right">登录</a>
+    </div>
+    <div class="img">
+        <img src="歌手专辑/img/zjl.jpg" width="100%"/>
+    </div>
+    <ul data-role="listview" >
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>说好的幸福呢</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>给我一首歌的时间</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>花海</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>稻香</h3>
+        </a></li>
+        <li><a href="歌曲播放页面/index.html" class="a" data-ajax="false">
+            <h3>龙战骑士</h3>
+        </a></li>
+    </ul>
+</div>
+
+
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script src="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.js"></script>
+</html>

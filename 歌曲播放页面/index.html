@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link href="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css"/>
+</head>
+<body>
+
+<div data-role="page" data-theme="b" id="play">
+    <audio src=""></audio>
+    <div data-role="header">
+        <a href="" class="back">返回</a>
+        <h2>明明的音乐播放器</h2>
+        <a href="../登录/index.html" data-ajax="false">登录</a>
+    </div>
+    <div data-role="content">
+        <div class="singer">
+            <div class="song-name">
+                <h3></h3>
+            </div>
+            <div class="singer">
+                <span></span>
+            </div>
+            <div class="song-img">
+                <img src="img/jj.jpg" width="100%"/>
+            </div>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" style="width: 163px;margin: 1rem auto">
+            <button data-icon="carat-l" class="left" style="height: 1.3rem"></button>
+            <button class="rel ctrl" style="height: 1.3rem;width: 15px">
+                <div class="pause"></div>
+                <div class="play"></div>
+            </button>
+            <button data-icon="carat-r" class="right" style="height: 1.3rem"></button>
+        </div>
+    </div>
+    <div data-role="footer" class="fot">
+        <h3>暂无歌词</h3>
+    </div>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script src="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.js"></script>
+<script src="js/js.js"></script>
+</html>

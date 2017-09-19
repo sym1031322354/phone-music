@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <title></title><meta name="viewport"
+                         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link href="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css"/>
+</head>
+<body>
+<div data-role="page" data-theme="b" id="page1">
+    <div data-role="header">
+        <a href="" class="back">返回</a>
+        <h3>歌手列表</h3>
+        <a href="../登录/index.html" data-ajax="false">登录</a>
+    </div>
+    <ul data-role="listview">
+        <li data-icon="none"><a href="../歌手专辑/wsl.html"><img src="img/wsl.jpg" width="100%"/><h4>汪苏泷</h4><p>汪苏泷，中国内地男歌手。</p></a></li>
+        <li data-icon="none"><a href="../歌手专辑/wyt.html"><img src="img/wyt.jpg" width="100%"/><h4>五月天</h4><p>五月天，台湾摇滚乐团。</p></a></li>
+        <li data-icon="none"><a href="../歌手专辑/zjl.html"><img src="img/zjl.jpg" width="100%"/><h4>周杰伦</h4><p>周杰伦，中国台湾男歌手。</p></a></li>
+        <li data-icon="none"><a href="../歌手专辑/xzq.html"><img src="img/xzq.jpg" width="100%"/><h4>薛之谦</h4><p>薛之谦，华语流行乐男歌手。</p></a></li>
+        <li data-icon="none"><a href="../歌手专辑/lrh.html"><img src="img/lrh.jpg" width="100%"/><h4>李荣浩</h4><p>李荣浩，中国流行乐男歌手。</p></a></li>
+        <li data-icon="none"><a href="../歌手专辑/sdy.html"><img src="img/sdy.jpg" width="100%"/><h4>宋冬野</h4><p>宋冬野，中国民谣歌手。</p></a></li>
+    </ul>
+</div>
+
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script src="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.js"></script>
+<script>
+    $(function(){
+        $('.back').tap(function(){
+            window.history.back();
+        })
+    })
+
+</script>
+</html>

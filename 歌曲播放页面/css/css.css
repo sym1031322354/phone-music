@@ -1,0 +1,39 @@
+.singer {
+    width: 100%;
+    text-align: center;
+}
+.song-img {
+    width: 288px;
+    height: 288px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.text-center {
+    text-align: center;
+}
+.play {
+    width: .5rem;
+    height: 1rem;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    position: absolute;
+    top: 15px;
+    display: none;
+}
+.pause {
+    border-left: 15px solid white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+}
+.rel {
+    position: relative;
+}
+.fot {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

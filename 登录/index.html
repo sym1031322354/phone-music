@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <title></title>
+    <meta name="viewport"
+                         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link href="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css"/>
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header">
+        <a href="" class="back">返回</a>
+        <h3>笑口常开</h3>
+    </div>
+    <img src="img/8.jpg" width="100%"/>
+    <h1>你是生气呢还是开心呢</h1>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script src="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.js"></script>
+<script>
+    $(function(){
+        alert('祝你像该图一样笑口常开');
+        $('.back').tap(function(){
+            window.history.back();
+        })
+    })
+
+</script>
+</html>
